@@ -32,4 +32,4 @@ npm start
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Project is deployed automatically with each commit to master
