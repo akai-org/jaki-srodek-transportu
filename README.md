@@ -33,3 +33,4 @@ npm start
 ## Deployment
 
 Project is deployed automatically with each commit to master
+You can access the website at https://jakisrodektransportu.netlify.com
