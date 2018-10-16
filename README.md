@@ -18,6 +18,13 @@ Clone this repo with
 git clone https://github.com/akai-org/jaki-srodek-transportu.git
 ```
 
+Go to project directory
+
+```
+cd jaki-srodek-transportu
+```
+
+
 Install all packages
 
 ```
