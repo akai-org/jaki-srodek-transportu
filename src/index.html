@@ -4,13 +4,45 @@
 <head>
   <meta charset="UTF-8">
   <title>Jaki środek transportu</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
 
   <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600|Open+Sans+Condensed:300&amp;subset=latin-ext" rel="stylesheet">
+  
+  <link rel="stylesheet" href="fontello/fontello-77ec35af/css/fontello.css">
 </head>
 
 <body>
-  <div>Powered by AKAI</div>
 
+  <header class="head">
+    <div class="name"> ,,LOGO" </div>
+  </header>
+  <section class="mainsection">
+    <div class="wheretd"><a href="showing.html">Gdzie dzisiaj ?</a></div>
+    
+    <div class="find">
+      <form action="#" method="get">
+        <input type="text" name="from" placeholder="Początek trasy" onfocus="this.placeholder=''" onblur="this.placeholder='Poczatek trasy'" />
+      </form>
+
+      <form action="#" method="get">
+        <input type="text" name="to" placeholder="Koniec trasy" onfocus="this.placeholder=''" onblur="this.placeholder='Koniec trasy'" />
+      </form>
+
+      <form action="#">
+        <button>
+          <i class="icon-search"></i>
+        </button>
+        <input name="send" type="hidden" />
+      </form>
+    </div>
+  
+    <div class="logo">
+      <img src="img/logo.png"/>
+    </div>
+<div style="clear: both"></div>
+  </section>
+  <footer>POWERED BY AKAI </footer>
   <script src="./scripts/index.js"></script>
 </body>
 
