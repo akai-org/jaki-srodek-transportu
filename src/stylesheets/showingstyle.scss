@@ -29,29 +29,21 @@ body {
     background-color: #FAEDF7;
     border-radius: 10px;
     margin-bottom: 0.8%;
+    flex-wrap: nowrap;
 
-    &__one {
-      flex: 1;
+    @media screen and (max-width: 800px) {
+      flex-wrap: wrap;
     }
 
-    &__two {
-      flex: 1;
-    }
+    &__item {
+      display: flex;
+      justify-content: space-around;
+      flex-basis: 200px;
 
-    &__three {
-      flex: 1;
-    }
+      @media screen and (max-width: 800px) {
+        flex-basis: 100%;
 
-    &__four {
-      flex: 1;
-    }
-
-    &__five {
-      flex: 1;
-    }
-
-    &__six {
-      flex: 1;
+      }
     }
 
   }
