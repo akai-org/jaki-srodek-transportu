@@ -1,37 +1,59 @@
 body {
-  background-color: #F4BED8;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containercontent {
+  max-height: 80%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contentshowing {
-  background-color: red;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  flex: 1;
+  
+  font-size: 1.6rem;
 
   &__transport i {
-    color:  black;
+    color: black;
   }
+
   &__transport {
+    justify-content: center;
     text-align: center;
-    padding: 5px;
-    color: white;
-    border: 1px solid black;
-    &__one{
-      width: 30%;
-      border-right: 1px solid black;
-      float: left;
+    display: flex;
+    padding: 10px;
+    background-color: #FAEDF7;
+    border-radius: 10px;
+    margin-bottom: 0.8%;
+
+    &__one {
+      flex: 1;
     }
-    &two{
-      width: 30%;
-      float: left;
+
+    &__two {
+      flex: 1;
     }
-    &three{
-      width: 30%;
-      float: left;
+
+    &__three {
+      flex: 1;
     }
-    &four{
-      clear: both;
+
+    &__four {
+      flex: 1;
     }
+
+    &__five {
+      flex: 1;
+    }
+
+    &__six {
+      flex: 1;
+    }
+
   }
 }
 
@@ -45,19 +67,25 @@ footer {
   margin-left: -50px;
 }
 
-.content {
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  transform: translate(-50%, 0px);
-  overflow: hidden;
 
+  
+.content {
+  margin: 25px auto;
+  overflow: hidden;
+  max-width: 400px;
   font-family: 'Lato', sans-serif;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 50%;
   font-size: 35px;
   line-height: 40px;
   color: black;
 
   &__container {
+    position: relative;
+    display: inline-block;
+    max-width: 300px;
     font-weight: 600;
     overflow: hidden;
     height: 40px;
